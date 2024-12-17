@@ -1,0 +1,75 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40; 
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #007bff; 
+    color: white;
+}
+
+.table td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1; 
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
